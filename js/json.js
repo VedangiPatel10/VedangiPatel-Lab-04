@@ -102,7 +102,7 @@ function showTopFlavors(jsonObj) {
         ingredientsLabel.style.fontWeight = 'bold';
         ingredientsLabel.style.marginTop = '10px';
         ingredientsLabel.style.marginBottom = '5px';
-        
+
         // STEP 10g: Build a loop for the ingredients array in the JSON
         let ingredients = topFlavors[i].ingredients;
         for(j =0;j<ingredients.length;ingredients++){
@@ -116,6 +116,10 @@ function showTopFlavors(jsonObj) {
         article.appendChild(h2);
         article.appendChild(img);
         article.appendChild(ul);
+        article.appendChild(type);
+        article.appendChild(calories);
+        article.appendChild(ingredientsLabel);
+        
         // STEP 10i: Append each complete ARTICLE element to the SECTION element
         section.appendChild(article);
         
