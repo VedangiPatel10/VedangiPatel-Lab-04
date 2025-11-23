@@ -59,10 +59,20 @@ function showTopFlavors(jsonObj) {
         let type = document.createElement('p');
         let calories = document.createElement('p');
         let ingredientsLabel = document.createElement('p');
-        
+
         // STEP 10f: Set the textContent property for each of the above elements (except the UL), based on the JSON content
         h2.textContent = topFlavors[i].name;
         img.setAttribute('src','./images/' + topFlavors[i].image);
+        img.setAttribute('alt', topFlavors[i].name);
+
+        // Display type of ice cream with styling
+        type.textContent = `Type: ${topFlavors[i].type.charAt(0).toUpperCase() + topFlavors[i].type.slice(1)}`;
+        type.style.fontWeight = 'bold';
+        type.style.fontStyle = 'italic';
+        type.style.color = '#6643b5';
+        type.style.marginTop = '10px';
+
+        
 
         // STEP 10g: Build a loop for the ingredients array in the JSON
         let ingredients = topFlavors[i].ingredients;
