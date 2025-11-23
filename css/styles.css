@@ -98,4 +98,46 @@ h2 {
   padding-bottom: 10px;
 }
 
+/* Flavor Styling */
+.flavor-type {
+	font-weight: bold;
+	font-style: italic;
+	color: #20194a;
+	margin-top: 10px;
+}
+
+/* Calories Styling */
+.calories-badge {
+	font-weight: bold;
+	font-size: 1.1rem;
+	padding: 5px 10px;
+	border-radius: 5px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+/* Low Calorie Badge */
+.low-calorie {
+	color: #0d8abc;
+	background-color: #daeaf6;
+}
+
+/* Medium Calorie */
+.medium-calorie {
+	color: #f54291;
+	background-color: #fff8cd;
+}
+
+/* High Calorie */
+.high-calorie {
+	color: #691a40;
+	background-color: #fde3f0;
+}
+
+/* Ingredients Label */
+.ingredients-label {
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
 
