@@ -78,6 +78,18 @@ function showTopFlavors(jsonObj) {
         calories.style.fontWeight = 'bold';
         calories.style.fontSize = '1.1rem';
 
+        // Making the color code according to calorie count
+         if (topFlavors[i].calories < 300) {
+            calories.style.color =  '#0d6efd'; 
+            calories.style.backgroundColor =  '#daeaf6';
+        } 
+        else if (topFlavors[i].calories < 400) {
+            calories.style.color = '#f54291'; 
+            calories.style.backgroundColor = '#fff8cd';
+        } else {
+            calories.style.color = '#691a40'; 
+            calories.style.backgroundColor = '#fde3f0';
+        }
         
         // STEP 10g: Build a loop for the ingredients array in the JSON
         let ingredients = topFlavors[i].ingredients;
