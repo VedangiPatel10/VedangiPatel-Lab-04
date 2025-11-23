@@ -23,8 +23,6 @@ async function populate(){
     // STEP 10a: Invoke the showTopFlavors function here, then build it below
     showTopFlavors(iScream);
 }  
-populate();
-
 
 // STEP 3b: Call the populate() function
 populate();
@@ -119,7 +117,7 @@ function showTopFlavors(jsonObj) {
         article.appendChild(type);
         article.appendChild(calories);
         article.appendChild(ingredientsLabel);
-        
+
         // STEP 10i: Append each complete ARTICLE element to the SECTION element
         section.appendChild(article);
         
