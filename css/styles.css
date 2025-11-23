@@ -23,7 +23,7 @@ body {
 h1 {
   font-size: 3rem;
   text-align: center;
-  color:#dcb5ff;
+  color:#7c064d;
   text-shadow: 2px 2px 4px rgba(36, 7, 71, 1);
   margin-bottom: 10px;
   margin-top: 20px;
@@ -33,7 +33,7 @@ header p {
   font-size: 1.3rem;
   font-weight: bold;
   text-align: center;
-  color: #ff8585;
+  color: #e20049;
   margin-top: 5px;
   margin-bottom: 30px;
 }
