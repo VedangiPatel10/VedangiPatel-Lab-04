@@ -141,3 +141,47 @@ h2 {
 	margin-bottom: 5px;
 }
 
+/* /* Responsive Design */
+@media (max-width: 1200px) {
+	section article {
+		width: 30%;
+	}
+}
+
+@media (max-width: 1024px) {
+	section article {
+		width: 45%;
+	}
+	
+	h1 {
+		font-size: 2.5rem;
+	}
+}
+
+@media (max-width: 768px) {
+	body {
+		font-size: 120%;
+		width: 95%;
+	}
+	
+	section {
+		gap: 0;
+	}
+	
+	section article {
+		width: 100%;
+		margin: 10px 0;
+	}
+	
+	h1 {
+		font-size: 2rem;
+	}
+	
+	header p {
+		font-size: 1rem;
+	}
+	
+	h2 {
+		font-size: 1.5rem;
+	}
+} 
