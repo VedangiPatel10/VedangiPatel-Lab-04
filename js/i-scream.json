@@ -27,7 +27,16 @@
       "image" : "peach-mango.svg"
     },
     {
-      
+      "name": "Strawberry Sensation",
+      "calories": 280,
+      "type": "sorbet",
+      "ingredients": [
+        "fresh strawberries",
+        "organic cane sugar",
+        "lemon zest",
+        "mint leaves"
+      ],
+      "image": "strawberry.svg"
     }
   ]
 }
