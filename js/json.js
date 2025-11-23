@@ -37,8 +37,14 @@ function populateHeader(jsonObj) {
     headerH1.textContent = jsonObj.companyName;
     // Inject the complete H1 element into the DOM, inside the HEADER
     header.appendChild(headerH1);
+
+    // Adding the company information paragraph
+    const headerPara = document.createElement('p');
+    headerPara.textContent = `Est. ${jsonObj.established} | ${jsonObj.headOffice}`;
+    header.appendChild(headerPara);
     
 };
+
 /* STEP 10b: Assemble the showTopFlavors() function */
 function showTopFlavors(jsonObj) {
     // STEP 10c: Attache the JSON topFlavors object to a variable
