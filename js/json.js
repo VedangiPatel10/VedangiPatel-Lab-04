@@ -90,6 +90,18 @@ function showTopFlavors(jsonObj) {
             calories.style.color = '#691a40'; 
             calories.style.backgroundColor = '#fde3f0';
         }
+
+        // Add padding and border radius to calorie
+        calories.style.padding = '5px 10px';
+        calories.style.borderRadius = '5px';
+        calories.style.display = 'inline-block';
+        calories.style.marginBottom = '10px';
+
+        // Ingredients label
+        ingredientsLabel.textContent = 'Ingredients:';
+        ingredientsLabel.style.fontWeight = 'bold';
+        ingredientsLabel.style.marginTop = '10px';
+        ingredientsLabel.style.marginBottom = '5px';
         
         // STEP 10g: Build a loop for the ingredients array in the JSON
         let ingredients = topFlavors[i].ingredients;
