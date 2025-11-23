@@ -36,7 +36,19 @@
         "lemon zest",
         "mint leaves"
       ],
-      "image": "strawberry.svg"
+      "image": "strawberry-sprinkles.svg"
+    },
+    {
+      "name": "Vanilla Dream Supreme",
+      "calories": 420,
+      "type": "ice cream",
+      "ingredients": [
+        "Madagascar vanilla beans",
+        "heavy cream",
+        "caramel swirl",
+        "sea salt"
+      ],
+      "image": "ice-cream-xtra2.svg"
     }
   ]
 }
