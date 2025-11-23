@@ -56,7 +56,10 @@ function showTopFlavors(jsonObj) {
         let h2 = document.createElement('h2');
         let img= document.createElement('img');
         let ul = document.createElement('ul');
-
+        let type = document.createElement('p');
+        let calories = document.createElement('p');
+        let ingredientsLabel = document.createElement('p');
+        
         // STEP 10f: Set the textContent property for each of the above elements (except the UL), based on the JSON content
         h2.textContent = topFlavors[i].name;
         img.setAttribute('src','./images/' + topFlavors[i].image);
