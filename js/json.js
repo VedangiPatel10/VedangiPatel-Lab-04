@@ -73,7 +73,12 @@ function showTopFlavors(jsonObj) {
         type.style.marginTop = '10px';
 
         
+        // Display calories with styling
+        calories.textContent = `${topFlavors[i].calories} calories`;
+        calories.style.fontWeight = 'bold';
+        calories.style.fontSize = '1.1rem';
 
+        
         // STEP 10g: Build a loop for the ingredients array in the JSON
         let ingredients = topFlavors[i].ingredients;
         for(j =0;j<ingredients.length;ingredients++){
